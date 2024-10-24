@@ -1,0 +1,52 @@
+
+.event{
+    width: 80%;
+    margin: auto;
+}
+
+.parallax-container {
+    position: relative;
+    height: 560px; /* Ajusta según la altura deseada */
+    overflow: hidden;
+}
+
+.parallax-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.event .image-parallax{
+    background-image: url("/src/assets/images/banner.webp");
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.event-content{
+    padding: 5vh 0 10vh 0;
+}
+
+.event-content h3{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.event-content .creation-date{
+    font-weight: 200;
+    color: #202020;
+}
+
+.event .description p{
+    padding: 15px 0 15px 0;
+}
+
+
+
+
